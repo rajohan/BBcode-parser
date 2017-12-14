@@ -1,11 +1,12 @@
 <?php
   function filter_data($data) {
+
      $data = trim($data);
      $data = strip_tags($data);
      $data = htmlspecialchars($data, ENT_QUOTES, 'UTF-8');
 
-	   // BBcode array
-	   $find = array(
+     // BBcode array
+     $find = array(
        '~\[b\]~s',
        '~\[/b\]~s',
        '~\[li\]~s',
