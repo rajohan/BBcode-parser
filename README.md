@@ -1,4 +1,4 @@
-A simple BBcode-parser-PHP
+A simple BBcode-parser
 
 Supported codes: [b][/b], [li][/li\], [ul][/ul], [i][/i], [u][/u], [quote][/quote], [size=?][/size], [color=?][/color\], [url][/url], [img][/img]
 
